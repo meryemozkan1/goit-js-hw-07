@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+/* ===== TASK 2 - GALLERY ===== */
+
+.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  gap: 20px;
+}
+
+.gallery img {
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+/* ===== TASK 6 - BOXES ===== */
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* ===== TASK 5 - COLOR WIDGET ===== */
+
+.widget {
+  margin-top: 30px;
+}
